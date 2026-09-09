@@ -3,196 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preload" href="CSS/normalize.css" as="stylesheet">
-    <link rel="stylesheet" href="CSS/normalize.css">
-    
-    <link rel="preload" href="CSS/styles.css" as="stylesheet">
-    <link rel="stylesheet" href="CSS/styles.css">
-    <title>Developer page</title>
+    <title>Developer page - Noe Euan</title>
+
+    <!-- Normalize -->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Google fonts--> 
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Patrick+Hand&display=swap"rel="stylesheet">
+
+    <!-- Estilo personalizado -->
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+
     <header>
-         <h1 class="my-title">Noe Euan<span>Developer</span></h1>
+        <h1 class="my-title">Noe Euan Herrera <span>Back-end Developer</span></h1>
     </header>
-    <nav>
+
+    <nav class="navegacion en internet">
         <a href="#">Inicio</a>
         <a href="#">Sobre mí</a>
         <a href="#">Clientes</a>
         <a href="#">Contacto</a>
     </nav>
-    
-    <section>
-        <h2>Desarrolladora full-stack</h2>
-  <!--
-category: Map
-tags: [navigation, location, travel, pin, position, marker]
-version: "1.0"
-unicode: "eae8"
--->
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="32"
-  height="32"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="#00c7be"
-  stroke-width="1"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
-  <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
-</svg>
 
-        <p>Merida, Yucatán</p>
+    <section class="ubicacion">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0" /></svg>
+        <p>Mérida, Yucatán</p>
     </section>
-    
-    <main>
+ 
+    <main class="contenedor-principal">
         <h2>Mis servicios</h2>
-        <section>
-            <h3>Diseña web</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Quam molestiae excepturi vitae eveniet neque omnis recusandae repellat 
-                earum deleniti ipsa eos impedit, illo obcaecati. Voluptas natus incidunt 
-                quaerat pariatur dignissimos? </p>
+        
+        <section class="servicio">
+            <h3>Diseño web</h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-palette"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M12 21a9 9 0 0 1 0 -18c4.97 0 9 3.582 9 8c0 1.06 -.474 2.078 -1.318 2.828c-.844 .75 -1.989 1.172 -3.182 1.172h-2.5a2 2 0 0 0 -1 3.75a1.3 1.3 0 0 1 -1 2.25" /><path d="M7.5 10.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M11.5 7.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M15.5 10.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /></svg>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non fugiat suscipit necessitatibus, officiis hic reprehenderit totam adipisci labore velit. Pariatur inventore laboriosam sunt facere odio maiores accusantium expedita, qui est?</p>
         </section>
-              <!--
-category: Design
-tags: [color, paint, painter, picture, board, artist]
-version: "1.1"
-unicode: "eb01"
--->
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="32"
-  height="32"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="#00c7be"
-  stroke-width="1"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M12 21a9 9 0 0 1 0 -18c4.97 0 9 3.582 9 8c0 1.06 -.474 2.078 -1.318 2.828c-.844 .75 -1.989 1.172 -3.182 1.172h-2.5a2 2 0 0 0 -1 3.75a1.3 1.3 0 0 1 -1 2.25" />
-  <path d="M8.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M12.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M16.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-</svg>
 
-        <section>
-            <h3>Aplicaciones Moviles</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Quam molestiae excepturi vitae eveniet neque omnis recusandae repellat 
-                earum deleniti ipsa eos impedit, illo obcaecati. Voluptas natus incidunt 
-                quaerat pariatur dignissimos? </p>  
+        <section class="servicio">
+            <h3>Desarrollo de videojuegos</h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-device-gamepad-2"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M12 5h3.5a5 5 0 0 1 0 10h-5.5l-4.015 4.227a2.3 2.3 0 0 1 -3.923 -2.035l1.634 -8.173a5 5 0 0 1 4.904 -4.019h3.4" /><path d="M14 15l4.07 4.284a2.3 2.3 0 0 0 3.925 -2.023l-1.6 -8.232" /><path d="M8 9v2" /><path d="M7 10h2" /><path d="M14 10h2" /></svg>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non fugiat suscipit necessitatibus, officiis hic reprehenderit totam adipisci labore velit. Pariatur inventore laboriosam sunt facere odio maiores accusantium expedita, qui est?</p>
         </section>
-        <!--
-category: Design
-tags: [color, paint, painter, picture, board, artist]
-version: "1.1"
-unicode: "eb01"
--->
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="32"
-  height="32"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="#00c7be"
-  stroke-width="1"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M12 21a9 9 0 0 1 0 -18c4.97 0 9 3.582 9 8c0 1.06 -.474 2.078 -1.318 2.828c-.844 .75 -1.989 1.172 -3.182 1.172h-2.5a2 2 0 0 0 -1 3.75a1.3 1.3 0 0 1 -1 2.25" />
-  <path d="M8.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M12.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M16.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-</svg>
-<!--
-tags: [os, company, system, interface, software, devices, logo]
-category: Brand
-version: "1.9"
-unicode: "ec17"
--->
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="32"
-  height="32"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="#00c7be"
-  stroke-width="1"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M8.286 7.008c-3.216 0 -4.286 3.23 -4.286 5.92c0 3.229 2.143 8.072 4.286 8.072c1.165 -.05 1.799 -.538 3.214 -.538c1.406 0 1.607 .538 3.214 .538s4.286 -3.229 4.286 -5.381c-.03 -.011 -2.649 -.434 -2.679 -3.23c-.02 -2.335 2.589 -3.179 2.679 -3.228c-1.096 -1.606 -3.162 -2.113 -3.75 -2.153c-1.535 -.12 -3.032 1.077 -3.75 1.077c-.729 0 -2.036 -1.077 -3.214 -1.077z" />
-  <path d="M12 4a2 2 0 0 0 2 -2a2 2 0 0 0 -2 2" />
-</svg>
 
-        <section>
-            <h3>Soluciones AI</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Quam molestiae excepturi vitae eveniet neque omnis recusandae repellat 
-                earum deleniti ipsa eos impedit, illo obcaecati. Voluptas natus incidunt 
-                quaerat pariatur dignissimos? </p>
-                
+        <section class="servicio">
+            <h3>Aplicaciones móviles</h3>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-android"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M4 10l0 6" /><path d="M20 10l0 6" /><path d="M7 9h10v8a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-8a5 5 0 0 1 10 0" /><path d="M8 3l1 2" /><path d="M16 3l-1 2" /><path d="M9 18l0 3" /><path d="M15 18l0 3" /></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-apple"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M8.286 7.008c-3.216 0 -4.286 3.23 -4.286 5.92c0 3.229 2.143 8.072 4.286 8.072c1.165 -.05 1.799 -.538 3.214 -.538c1.406 0 1.607 .538 3.214 .538s4.286 -3.229 4.286 -5.381c-.03 -.011 -2.649 -.434 -2.679 -3.23c-.02 -2.335 2.589 -3.179 2.679 -3.228c-1.096 -1.606 -3.162 -2.113 -3.75 -2.153c-1.535 -.12 -3.032 1.077 -3.75 1.077c-.729 0 -2.036 -1.077 -3.214 -1.077" /><path d="M12 4a2 2 0 0 0 2 -2a2 2 0 0 0 -2 2" /></svg>
+            </div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non fugiat suscipit necessitatibus, officiis hic reprehenderit totam adipisci labore velit. Pariatur inventore laboriosam sunt facere odio maiores accusantium expedita, qui est?</p>
         </section>
-        <!--
-tags: [nonprofit, artificial, intelligence, website]
-category: Brand
-version: "2.5"
-unicode: "f78e"
--->
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="32"
-  height="32"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="#00c7be"
-  stroke-width="1"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M11.217 19.384a3.501 3.501 0 0 0 6.783 -1.217v-5.167l-6 -3.35" />
-  <path d="M5.214 15.014a3.501 3.501 0 0 0 4.446 5.266l4.34 -2.534v-6.946" />
-  <path d="M6 7.63c-1.391 -.236 -2.787 .395 -3.534 1.689a3.474 3.474 0 0 0 1.271 4.745l4.263 2.514l6 -3.348" />
-  <path d="M12.783 4.616a3.501 3.501 0 0 0 -6.783 1.217v5.067l6 3.45" />
-  <path d="M18.786 8.986a3.501 3.501 0 0 0 -4.446 -5.266l-4.34 2.534v6.946" />
-  <path d="M18 16.302c1.391 .236 2.787 -.395 3.534 -1.689a3.474 3.474 0 0 0 -1.271 -4.745l-4.308 -2.514l-5.955 3.42" />
-</svg>
-
     </main>
-    <section>
-        <h2>Contacto</h2>
-        <from>
-          <fieldset>
-            <legend>Llena tus datos de contacto</legend>
-            <div>
-              <label>Nombre completo</label>
-              <input type="text" placeholder="Nombre completo">
-            </div>
-            <div>
-              <label>Teléfono</label>
-              <input type="tel" placeholder="Tu teléfono">
-            </div>
-            <div>
-              <label>Email</label>
-              <input type="email" placeholder="Tu correo electrónico">
-            </div>
-            <div>
-              <label>Mensaje</label>
-              <textarea placeholder="Escribe tu mensaje"></textarea>
-            </div>
-            <div>
-              <input type="submit" value="Enviar"/>
-            </div>
 
-          </fieldset>
-        </from>
+    <section class="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <fieldset>
+                <legend>Llena tus datos de contacto</legend>
+                <div>
+                    <label>Nombre completo</label>
+                    <input type="text" placeholder="Tu nombre">
+                </div>
+                <div>
+                    <label>Teléfono</label>
+                    <input type="tel" placeholder="Tu número">
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input type="email" placeholder="Tu correo electrónico">
+                </div>
+                <div>
+                    <label>Mensaje</label>
+                    <textarea></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </fieldset>
+        </form>
     </section>
+
     <footer>
-        <p>Derechos reservados &copy;  Noe Euan Herrera 2026</p>
+        <p>Todos los derechos reservados ©. Noe Euan Developer 2026</p>
     </footer>
+
 </body>
 </html>
