@@ -1,0 +1,16 @@
+/* Truco para uniformidad en textos entre navegadores */ 
+html{
+    font-size: 62.5%; 
+} 
+body { 
+    font-size: 16px; 
+}
+
+.my-title {
+    text-align: center; 
+    font-size: 3.8rem; 
+} 
+
+.mv-title span{ 
+    font-size: 2rem; 
+} 
